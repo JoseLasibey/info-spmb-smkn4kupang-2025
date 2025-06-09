@@ -56,6 +56,38 @@ nav {
   border-radius: 5px;
   cursor: pointer;
 }
+.download-btn img {
+  width: 10px;
+}
+
+.download-btn a {
+  padding: 4px;
+  color: #ffe867;
+}
+.download-btn a:hover {
+  color: #fff;
+}
+
+.download-btn-bawah {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.download-btn-bawah img {
+  width: 10px;
+}
+
+.download-btn-bawah a {
+  padding: 4px;
+  color: #ffe867;
+}
+.download-btn-bawah a:hover {
+  color: #fff;
+}
+
 .jumbotron {
   height: 100vh;
   display: flex;
@@ -139,17 +171,6 @@ footer {
   border-radius: 2px;
   transition: 0.3s;
 }
-.download-btn img {
-  width: 10px;
-}
-
-.download-btn a {
-  padding: 4px;
-  color: #ffe867;
-}
-.download-btn a:hover {
-  color: #fff;
-}
 
 /* Scrollbar keseluruhan */
 ::-webkit-scrollbar {
@@ -227,20 +248,6 @@ footer {
   text-decoration: underline;
 }
 
-.download-btn a {
-  display: inline-flex;
-  align-items: center;
-  /* background-color: #18c0ed; */
-  color: white;
-  padding: 3px 3px;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-.download-btn img {
-  width: 10px;
-  margin-left: 10px;
-}
 .share-section {
   display: flex;
   flex-direction: column;
