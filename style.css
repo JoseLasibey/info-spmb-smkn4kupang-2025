@@ -56,6 +56,14 @@ nav {
   border-radius: 5px;
   cursor: pointer;
 }
+.download-btn-bawah {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .jumbotron {
   height: 100vh;
   display: flex;
@@ -288,6 +296,9 @@ footer {
   }
   .download-btn {
     display: none;
+  }
+    .download-btn-bawah {
+    display: block;
   }
   .jumbotron {
     margin-top: 60px;
