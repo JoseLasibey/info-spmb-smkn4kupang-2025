@@ -1,73 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="”viewport”"
-      content="”width"
-      ="device-width,"
-      initial-scale="1.0,"
-      maximum-scale="1.0,"
-      user-scalable="no”"
-    />
-    <title>INFO SPMB 2025 - SMKN 4 KUPANG</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-     </head>
+    <title>INFO SPMB 2025</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
   <body>
+    <!-- Navbar -->
     <nav>
-      <img src="images/logo.png" class="logo" alt="logo" /> 
-      <ul id="menu-links">
-        <li><a href="index.html" class="href">Home</a></li>
-        <li><a href="#syarat" class="href">Persyaratan</a></li>
-        <li><a href="#daftar" class="href">Pendafaran Ulang</a></li>
-      </ul>
-      <button class="nav-btn">
-        <a href="https://drive.google.com/file/d/13v24NGQ9owl6aZ523oZqTZydwmH_bM4M/view?usp=sharing" target="_blank" alt="Data PDF"> Download PDF <img src="images/download.png" alt="" /></a></button>
-      </button>
-      <img src="images/menu.png" class="menu-icon" onclick="toogleMenu()" />
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+        <span>SMKN 4 Kupang</span>
+      </div>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#persyaratan">Persyaratan</a>
+        <a href="#pendaftaran">Pendaftaran</a>
+        <a href="#kontak">Kontak</a>
+        <button class="download-btn">
+          <a
+            href="https://drive.google.com/file/d/1czwlL2Zah9L52XMm7A8QhpunVDUsBQxx/view?usp=sharing"
+            target="_blank"
+            alt="Data PDF"
+          >
+            Download PDF <img src="images/download.png" alt=""
+          /></a>
+        </button>
+      </div>
     </nav>
 
-    <div class="header">
-        <div class="btn-container">
-          <h1>Be part<br />of us</h1>
-          
-          <p>Yo guys!
-SMKN 4 Kupang, SMK Pusat Keunggulan, lagi buka SPMB 2025 nih!
-Kita punya 2 kelas internasional lho,  buat kamu yang 
-pengen lanjut study vokasi dan training industri di Jerman!
-Buruan daftar<br /><br />
-            Pendaftaran Online:<br />
-            26 - 28 Juni 2025 (Pukul 08.00 - 16.00 Wita)
-          </p>
-            <button class="btn-header">
-            <a href="https://ntt.siap-spmb.com/"  target="_blank">Link Pendaftaran <img src="images/arrow-black.png" alt=""/></a>
-            </button>
-          
-         </div>
-      <img src="images/4.png" class="user-img" alt="" />
-    </div>
-<div id="syarat"></div>
-    <section class="isi">
-      <div class="kolom-1">
-        <div class="judul-syarat">
-          <img src="images/syarat-umum.png" />
-          <h1>SYARAT UMUM</h1>
-        </div>
+    <!-- Jumbotron Carousel -->
+    <div id="home" class="jumbotron">
+      <div class="carousel" id="carousel">
+        <div class="slides">
+          <div class="slide">
+            <div class="slide-text">
+              <h1>INFO SPMB 2025</h1>
+              <br />
+              <p>
+                Yo guys! SMKN 4 Kupang, SMK Pusat Keunggulan, lagi buka SPMB
+                2025 nih! Kita punya <span class="internasional">&nbsp;2 kelas internasional&nbsp;</span> lho, buat kamu yang
+                pengen lanjut study vokasi dan training industri di Jerman!
+                Buruan daftar
+              </p>
+              <br />
+              <p>
+                Pendaftaran Online: 26 - 28 Juni 2025 (Pukul 08.00 - 16.00 Wita)
+              </p>
+              <a href="https://ntt.siap-spmb.com/"  target="_blank" title="https://ntt.siap-spmb.com">Link Pendaftaran</a>
+              </div>
+            <div class="slide-image">
+              <img src="images/1.png" alt="Gambar 1" />
+            </div>
+          </div>
 
-        <div class="isi-syarat-khusus">
+          <div class="slide">
+            <div class="slide-text">
+              <h1>5 KONSENTRASI KEAHLIAN</h1>
+              <br />
+              <p>
+                <ul>
+                  <li>Desain Komunikasi Visual</li>
+                  <li>Teknik Komputer Jaringan dan Telekomunikasi</li>
+                  <li>Teknik Furniture</li>
+                  <li>Kriya Kreatif Kayu dan Rotan</li>
+                  <li>Kriya Kreatif Batik dan Tekstil</li>
+                </ul>
+              </p>
+              <br />
+              <p>
+                Pendaftaran Online: 26 - 28 Juni 2025 (Pukul 08.00 - 16.00 Wita)
+              </p>
+<a href="https://ntt.siap-spmb.com/"  target="_blank" title="https://ntt.siap-spmb.com">Link Pendaftaran</a>
+            
+            </div>
+            <div class="slide-image">
+              <img src="images/icon.png" alt="Gambar 2" />
+            </div>
+          </div>
+
+                    <div class="slide">
+            <div class="slide-text">
+              <h1>FASILITAS</h1>
+              <br />
+              <p>
+Lingkungan sekolahnya asik, rindang, aman, nyaman banget!
+Fasilitas lengkap, mulai dari Bengkel Jurusan, Lab Komputer, Lab Jaringan, Lab Bahasa, Studio Podcast, sampai Band Sekolah!
+Mau aktif? Ada banyak ekstrakurikuler seru: Pramuka, Tari, English Club, dan lainnya.
+
+              </p>
+              <br />
+              <p>
+                Pendaftaran Online: 26 - 28 Juni 2025 (Pukul 08.00 - 16.00 Wita)
+              </p>
+              <a href="https://ntt.siap-spmb.com/"  target="_blank" title="https://ntt.siap-spmb.com">Link Pendaftaran</a>
+            </div>
+            <div class="slide-image">
+              <img src="images/jurusan.png" alt="Gambar 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Persyaratan -->
+    <section id="persyaratan">
+          <h1>SYARAT UMUM</h1>
+        <div>
           <h3>
             1. Persyaratan SPMB bagi calon peserta didik baru SMA/SMK/SMALB
             sebagai berikut :
           </h3>
 
-          <ul class="khusus">
+          <ul class="list">
             <li>
               memiliki Ijazah atau Surat Tanda Tamat Belajar SMP/SMPLB/SMP
               Inklusif atau bentuk lain yang sederajat atau Surat Keterangan
@@ -120,7 +173,7 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
 
           </h3>
  
-          <ul class="khusus">
+          <ul class="list">
             <li>
               pendaftaran oleh orang tua secara langsung di sekolah (Offline)
             </li>
@@ -128,19 +181,18 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
           </ul>
 
         </div>
-      </div>
-      <div class="kolom-2">
-        <div class="judul-syarat">
-          <img src="images/syarat-umum.png" />
+      <br><br>
+   
+
           <h1>SYARAT KHUSUS</h1>
-        </div>
-        <div class="isi-syarat-khusus">
+ 
+        <div>
           <h3>
             Persyaratan Pendaftaran Penerimaan Peserta Didik Baru SMA dan SMK
             adalah sebagai berikut:
           </h3>
 
-          <ul class="khusus">
+          <ul class="list">
             <li>
               mengisi formulir pendaftaran yang sudah disediakan oleh panitia
               sekolah sesuai dengan Formulir Peserta Didik dari Dapodik untuk
@@ -177,19 +229,20 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
           </ul>
           
         </div>
-      </div>
+     
+
     </section>
-    <div id="daftar"></div>
-    <section class="daftar-ulang">
-      <div class="kolom-1">
-        <div class="isi-daftar-ulang">
-          <h1>PERSYARATAN PENDAFTARAN ULANG</h1>
+
+    <!-- Section Pendaftaran Ulang -->
+    <section class="pendaftaran" id="pendaftaran">
+
+          <h1>PERSYARATAN PENDAFTARAN ULANG (PEMBERKASAN DOKUMEN)</h1>
           <h3>
             Persyaratan Pendaftaran Penerimaan Peserta Didik Baru SMKN 4 Kupang
             adalah sebagai berikut:
           </h3>
 
-          <ol class="khusus-ulang">
+          <ol class="list">
             <li>Fotokopi tanda bukti Kwitansi pembayaran Komite Sekolah</li>
 
             <li>Fotokopi tanda bukti pengajuan pendaftaran online 3 lembar.</li>
@@ -240,7 +293,7 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
                     <li>Kriya Kreatif Batik dan Tekstil : <span id="pink">Map warna Pink</span></li>
                     <li>Kriya Kreatif Kayu dan Rotan : <span id="merah">Map warna Merah</span></li>
                     <li>
-                      Desain Interior dan Teknik Furnitur : Map warna Hijau
+                      Desain Interior dan Teknik Furnitur : <span id="hijau">Map warna Hijau</span>
                     </li>
                   </ol>
                 </li>
@@ -248,13 +301,12 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
             </li>
           </ol>
         </div>
-      </div>
-      <div class="kolom-2">
-        <div class="tahapan">
+      <br><br>
+
           <h1>TAHAPAN PENDAFTARAN ONLINE</h1>
           <ol class="tahapan">
             <li>
-              SPMB SMK secara Online dilakukan dengan sistem pendaftaran secara
+              PPDB SMK secara Online dilakukan dengan sistem pendaftaran secara
               daring (Online) melalui website
               <a
                 href="https://ntt.siap-spmb.com/
@@ -267,9 +319,9 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
 
             <li>
               Jadwal pendaftaran:
+              <h3>TAHAP I</h3>
               <ul class="jadwal">
-                <li><b>TAHAP I</b></li>
-                <li>
+                     <li>
                   Pendaftaran 26 - 28 Juni 2025 (Pukul 08.00 - 16.00 Wita)
                 </li>
                 <li>Verifikasi 26 - 28 2024 (Pukul 08.00 - 20.00 Wita)</li>
@@ -277,11 +329,11 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
                 <li>
                   Pendaftaran Ulang 2 - 3 Juli 2025 (Pukul 09.00 - 16.00 Wita)
                 </li>
-                <li><b>TAHAP II</b></li>
+               <h3>TAHAP II</h3>
                 <li>Pendaftaran 4 - 5 Juni 2025 (Pukul 08.00 - 16.00 Wita)</li>
                 <li>Pengumuman 6 Juli 2025 (Pukul 08.00 Wita)</li>
                 <li>
-                  Pendaftaran Ulang 8 - 20 Juli 2025 (Pukul 09.00 - 16.00 Wita)
+                  Pendaftaran Ulang 8 - 20 Juli 20245 (Pukul 09.00 - 16.00 Wita)
                 </li>
               </ul>
             </li>
@@ -323,29 +375,85 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
         </div>
       </div>
     </section>
-    <section class="info">
-      <div class="info-kontak">
-        <h1>CONTACT PERSON</h1>
-        <h4>Ibu Maria <a href="https://wa.me/6281330467360" target="_blank" title="WA Ibu Maria">0813 3046 7360</a></h4>
-        <h4>Pak Jefta <a href="https://wa.me/6282147649567" target="_blank" title="WA Pak Jefta">0821 4764 9567</a></h4><br>
-        <a href="https://drive.google.com/file/d/13v24NGQ9owl6aZ523oZqTZydwmH_bM4M/view?usp=sharing" target="_blank" alt="Data PDF"> Download File PDF <img src="images/download.png" alt="" /></a></button>
-      </div>
-    </section>
-    <script>
-      let navbar = document.querySelector("nav");
-      let menuLinks = document.getElementById("menu-links");
 
-      function toogleMenu(varGbr) {
-        menuLinks.classList.toggle("show-menu");
+    <!-- Section Kontak -->
+    <section id="kontak">
+  <h2>KONTAK</h2>
+
+  <div class="kontak-container">
+    <!-- Kolom 1: Kontak -->
+    <div class="kontak-kolom">
+        <h3>Contact Person</h3>
+      <h3>Ibu Maria</h3>
+      <a href="https://wa.me/6281330467360" target="_blank">0813 3046 7360</a>
+<br><br>
+      <h3>Pak Jefta</h3>
+      <a href="https://wa.me/6282147649567" target="_blank">0821 4764 9567</a>
+    </div>
+
+    <!-- Kolom 2: Website dan Sosial Media -->
+    <div class="kontak-kolom">
+      <h3>Website & Sosmed Sekolah</h3>
+      <p>Website: <a href="https://www.smkn4kupang.sch.id/" target="_blank">www.smkn4kupang.sch.id</a></p>
+      <p>Tiktok: <a href="https://www.tiktok.com/@smkn4kupang" target="_blank">Tiktok SMKN 4 Kupang</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/smkn4kupang/" target="_blank">Instagram SMKN 4 Kupang</a></p>
+      <p>YouTube: <a href="https://www.youtube.com/@SMKNEGERI4KUPANG/" target="_blank">Youtube SMKN 4 Kupang</a></p>
+    </div>
+
+    <!-- Kolom 3: Alamat Fisik -->
+    <div class="kontak-kolom">
+      <h3>Alamat Sekolah</h3>
+         Jl. Bajawa Oepoi Oebobo No.20<br>Oebufu, Kec. Oebobo, Kota Kupang<br>Nusa Tenggara Timur
+    </div>
+  </div>
+
+  <br>
+  <button class="download-btn">
+    <a
+      href="https://drive.google.com/file/d/1czwlL2Zah9L52XMm7A8QhpunVDUsBQxx/view?usp=sharing"
+      target="_blank"
+    >
+      Download File Versi PDF <img src="images/download.png" alt="Unduh">
+    </a>
+  </button>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Info SPMB SMKN 4 Kupang. Semua Hak Dilindungi.</p>
+
+    </footer>
+
+    <!-- Carousel Script -->
+    <script>
+      let currentIndex = 0;
+      const slides = document.querySelector(".slides");
+      const totalSlides = document.querySelectorAll(".slide").length;
+
+      const jumbotron = document.querySelector('.jumbotron');
+      const slideColors = ['#18c0ed', '#18c0ed', '#18c0ed']; 
+
+
+      function showSlide(index) {
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        slides.style.transform = `translateX(-${index * 100}%)`;
+        jumbotron.style.backgroundColor = slideColors[index]; 
+        currentIndex = index;
       }
 
-      window.onscroll = function () {
-        if (window.scrollY > 0) {
-          navbar.style.background = "#eefff9";
-        } else {
-          navbar.style.background = "transparant";
-        }
-      };
+
+      function nextSlide() {
+        showSlide(currentIndex + 1);
+      }
+
+      setInterval(nextSlide, 10000);
+
+      function toggleMenu() {
+        const nav = document.getElementById("navLinks");
+        nav.classList.toggle("active");
+      }
     </script>
   </body>
 </html>
