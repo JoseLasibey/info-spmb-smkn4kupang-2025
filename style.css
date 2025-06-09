@@ -117,7 +117,7 @@ nav {
 }
 .slide-text {
   flex: 1;
-  padding: 1rem;
+  padding: 0.1rem;
 }
 .slide-text ul {
   list-style-type: none;
