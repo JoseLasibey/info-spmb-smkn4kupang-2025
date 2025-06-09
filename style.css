@@ -159,6 +159,14 @@ footer {
   color: #fff;
 }
 
+.download-btn-bawah a {
+  padding: 4px;
+  color: #ffe867;
+}
+.download-btn-bawah a:hover {
+  color: #fff;
+}
+
 /* Scrollbar keseluruhan */
 ::-webkit-scrollbar {
   width: 10px;
