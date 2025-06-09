@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INFO SPMB 2025 - SMKN 4 KUPANG NTT</title>
+    <title>INFO SPMB 2025 - SMKN 4 KUPANG</title>
   <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -27,7 +27,7 @@
         <a href="#kontak">Kontak</a>
         <button class="download-btn">
           <a
-            href="https://drive.google.com/file/d/1Y1zkGOunvd5EYzyZNC015ProJlh9ZYmL/view?usp=sharing"
+            href="https://drive.google.com/file/d/1czwlL2Zah9L52XMm7A8QhpunVDUsBQxx/view?usp=sharing"
             target="_blank"
             alt="Data PDF"
           >
@@ -43,7 +43,7 @@
         <div class="slides">
           <div class="slide">
             <div class="slide-text">
-              <h1>INFO SPMB 2025 - SMKN 4 KUPANG</h1>
+              <h1>INFO SPMB 2025<br />SMKN 4 KUPANG</h1>
               <br />
               <p>
                 Yo guys! SMKN 4 Kupang, SMK Pusat Keunggulan, lagi buka SPMB
@@ -55,7 +55,7 @@
               <p>
                 Pendaftaran Online: 26 - 28 Juni 2025 (Pukul 08.00 - 16.00 Wita)
               </p>
-              <a href="https://ntt.spmb.id/"  target="_blank" title="https://ntt.spmb.id/">Link Pendaftaran</a>
+              <a href="https://ntt.siap-spmb.com/"  target="_blank" title="https://ntt.siap-spmb.com">Link Pendaftaran</a>
               </div>
             <div class="slide-image">
               <img src="images/1.png" alt="Gambar 1" />
@@ -101,7 +101,7 @@ Mau aktif? Ada banyak ekstrakurikuler seru: Pramuka, Tari, English Club, dan lai
               <p>
                 Pendaftaran Online: 26 - 28 Juni 2025 (Pukul 08.00 - 16.00 Wita)
               </p>
-              <a href="https://ntt.spmb.id/"  target="_blank" title="https://ntt.spmb.id/">Link Pendaftaran</a>
+              <a href="https://ntt.siap-spmb.com/"  target="_blank" title="https://ntt.siap-spmb.com">Link Pendaftaran</a>
             </div>
             <div class="slide-image">
               <img src="images/jurusan.png" alt="Gambar 2" />
@@ -110,6 +110,28 @@ Mau aktif? Ada banyak ekstrakurikuler seru: Pramuka, Tari, English Club, dan lai
         </div>
       </div>
     </div>
+
+    <!-- share -->
+<div class="share-section">
+  <img src="images/preview.jpg" class="preview" alt="Preview Website"/>
+  
+   <!-- Tombol manual untuk WhatsApp & Social Media -->
+  <div>
+    Bagikan Info SPMB 2025
+    <a href="https://wa.me/?text=Yuk cek info SPMB 2025 SMKN 4 Kupang di:%20shorturl.at/XFCLb" target="_blank">
+      <img src="images/whatsapp.png" alt="WhatsApp">
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=shorturl.at/XFCLb" target="_blank">
+      <img src="images/facebook.png" alt="Facebook">
+    </a>
+
+  </div>
+</div>
+
+
+
+</div>
+
 
     <!-- Section Persyaratan -->
     <section id="persyaratan">
@@ -309,10 +331,10 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
               PPDB SMK secara Online dilakukan dengan sistem pendaftaran secara
               daring (Online) melalui website
               <a
-                href="https://ntt.spmb.id/
+                href="https://ntt.siap-spmb.com/
               "
                 target="_blank"
-                >https://ntt.spmb.id/</a
+                >https://ntt.siap-spmb.com/</a
               >
               yang telah disediakan dengan mekanisme jalur umum tanpa zonasi;
             </li>
@@ -353,7 +375,7 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
               yang datanya tidak ditemukan dalam database maka dapat melakukan
               pendaftaran melalui menu Pendaftaran di luar database pada website
               <a
-                href="https://ntt.spmb.id/
+                href="https://ntt.siap-spmb.com/
             "
                 target="_blank"
                 >https://ntt.siap-spmb.com/</a
@@ -408,9 +430,9 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
   </div>
 
   <br>
-  <button class="download-btn-bawah">
+  <button class="download-btn">
     <a
-      href="https://drive.google.com/file/d/1Y1zkGOunvd5EYzyZNC015ProJlh9ZYmL/view?usp=sharing"
+      href="https://drive.google.com/file/d/1czwlL2Zah9L52XMm7A8QhpunVDUsBQxx/view?usp=sharing"
       target="_blank"
     >
       Download File Versi PDF <img src="images/download.png" alt="Unduh">
@@ -454,6 +476,23 @@ SMPLB, dan SMALB diatur oleh sekolah masing-masing dengan metode
         const nav = document.getElementById("navLinks");
         nav.classList.toggle("active");
       }
+
+      
+  function shareWebsite() {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Info SPMB 2025 - SMKN 4 Kupang',
+        text: 'Yuk cek info SPMB 2025 SMKN 4 Kupang!',
+        url: 'shorturl.at/XFCLb'
+      })
+      .then(() => console.log('Sukses dibagikan'))
+      .catch((error) => console.log('Gagal dibagikan', error));
+    } else {
+      alert("Fitur share tidak didukung di browser ini. Gunakan tombol WhatsApp atau Facebook");
+    }
+  }
+
+
     </script>
   </body>
 </html>
