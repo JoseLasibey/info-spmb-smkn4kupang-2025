@@ -280,6 +280,9 @@ footer {
   .hamburger {
     display: flex;
   }
+.jumbotron {
+  height: auto;
+}
 
   .nav-links {
     display: none;
